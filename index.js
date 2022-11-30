@@ -1,8 +1,8 @@
 const billAmount = document.querySelector("#bill-amount");
 const cashGiven = document.querySelector("#cash-given");
-const billButton = document.querySelector("#bill-Button");
+const billButton = document.querySelector("#bill-button");
 const checkButton = document.querySelector("#check-button");
 
-billAmount.addEventListener("click", () => console.log(billAmount.value));
+billButton.addEventListener("click", () => console.log("clicked", billAmount.value));
 
-checkButton.addEventListener("click", () => console.log(checkButton.value));
+checkButton.addEventListener("click", () => console.log("CLICKED", cashGiven.value));
