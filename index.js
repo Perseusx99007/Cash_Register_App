@@ -15,7 +15,7 @@ checkButton.addEventListener("click", validateBillAndCashAmount = () =>
     {
         if(cashGiven.value >= billAmount.value)
         {
-            
+
         }
     }
     else
@@ -25,3 +25,10 @@ checkButton.addEventListener("click", validateBillAndCashAmount = () =>
         message.innerText = "The Bill Amount should be greater than zero";
     }
 });
+
+showMessage = () =>
+{
+    message.style.display = "block";
+    console.log("Invalid Amount");
+    message.innerText = "The Bill Amount should be greater than zero";
+}
