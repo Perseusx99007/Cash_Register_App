@@ -32,5 +32,5 @@ showMessage = (message) =>
 {
     message.style.display = "block";
     console.log("Invalid Amount");
-    message.innerText = "The Bill Amount should be greater than zero";
+    message.innerText = message;
 }
