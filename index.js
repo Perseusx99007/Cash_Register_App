@@ -9,4 +9,6 @@ const checkButton = document.querySelector("#check-button");
 
 billButton.addEventListener("click", () => console.log("clicked", billAmount.value));
 
-checkButton.addEventListener("click", () => console.log("CLICKED", cashGiven.value));
+checkButton.addEventListener("click", validateBillAndCashAmount = () => {
+
+});
