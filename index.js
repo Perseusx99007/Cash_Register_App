@@ -9,6 +9,14 @@ const checkButton = document.querySelector("#check-button");
 
 billButton.addEventListener("click", () => console.log("clicked", billAmount.value));
 
-checkButton.addEventListener("click", validateBillAndCashAmount = () => {
-
+checkButton.addEventListener("click", validateBillAndCashAmount = () => 
+{
+    if(billAmount.value >= 0)
+    {
+        console.log("Valid AMount: ", billAmount.value);
+    }
+    else
+    {
+        console.log("Invalid AMount");
+    }
 });
