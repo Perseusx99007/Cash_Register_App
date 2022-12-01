@@ -15,7 +15,7 @@ checkButton.addEventListener("click", validateBillAndCashAmount = () =>
     {
         if(cashGiven.value >= billAmount.value)
         {
-
+            
         }
     }
     else
