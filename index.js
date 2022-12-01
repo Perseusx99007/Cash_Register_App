@@ -12,6 +12,7 @@ billButton.addEventListener("click", () => console.log("clicked", billAmount.val
 
 checkButton.addEventListener("click", validateBillAndCashAmount = () => 
 {
+    message.style.display = "none";
     if(billAmount.value > 0)
     {
         console.log("Valid AMount: ", billAmount.value);
