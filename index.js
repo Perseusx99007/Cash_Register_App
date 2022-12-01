@@ -8,6 +8,13 @@ const message = document.querySelector("#error-message");
 
 // checkButton.addEventListener("click", () => console.log("CLICKED", cashGiven.value));
 
+showMessage = (message) =>
+{
+    message.style.display = "block";
+    console.log("Invalid Amount");
+    message.innerText = message;
+}
+
 checkButton.addEventListener("click", validateBillAndCashAmount = () => 
 {
     message.style.display = "none";
@@ -27,10 +34,3 @@ checkButton.addEventListener("click", validateBillAndCashAmount = () =>
         showMessage("Invalid Amount.");
     }
 });
-
-showMessage = (message) =>
-{
-    message.style.display = "block";
-    console.log("Invalid Amount");
-    message.innerText = message;
-}
