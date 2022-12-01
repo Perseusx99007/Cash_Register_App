@@ -13,7 +13,10 @@ checkButton.addEventListener("click", validateBillAndCashAmount = () =>
     message.style.display = "none";
     if(billAmount.value > 0)
     {
-        
+        if(cashGiven.value > billAmount.value)
+        {
+            
+        }
     }
     else
     {
