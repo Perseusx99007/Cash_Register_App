@@ -20,9 +20,7 @@ checkButton.addEventListener("click", validateBillAndCashAmount = () =>
     }
     else
     {
-        message.style.display = "block";
-        console.log("Invalid Amount");
-        message.innerText = "The Bill Amount should be greater than zero";
+        showMessage("Invalid Amount");
     }
 });
 
