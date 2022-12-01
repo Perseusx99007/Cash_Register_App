@@ -17,6 +17,6 @@ checkButton.addEventListener("click", validateBillAndCashAmount = () =>
     }
     else
     {
-        console.log("Invalid AMount");
+        console.log("Invalid Amount");
     }
 });
