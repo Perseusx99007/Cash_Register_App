@@ -11,7 +11,6 @@ const message = document.querySelector("#error-message");
 showMessage = (message) =>
 {
     message.style.display = "block";
-    console.log("Invalid Amount");
     message.innerText = message;
 }
 
