@@ -8,11 +8,11 @@ const message = document.querySelector("#error-message");
 
 // checkButton.addEventListener("click", () => console.log("CLICKED", cashGiven.value));
 
-// showMessage = (message) =>
-// {
-//     message.style.display = "block";
-//     message.innerText = message;
-// }
+showMessage = (message) =>
+{
+    message.style.display = "block";
+    message.innerText = message;
+}
 
 checkButton.addEventListener("click", validateBillAndCashAmount = () => 
 {
@@ -26,14 +26,16 @@ checkButton.addEventListener("click", validateBillAndCashAmount = () =>
         else
         {
             console.log("The Cash provided should atleast be equal to the Bill Amount.");
-            message.style.display = "block";
-            message.innerText = "The Cash provided should atleast be equal to the Bill Amount.";
+            // message.style.display = "block";
+            // message.innerText = "The Cash provided should atleast be equal to the Bill Amount.";
+            showMessage("The Cash provided should atleast be equal to the Bill Amount.");
         }
     }
     else
     {
         console.log("Invalid Amount.");
-        message.style.display = "block";
-        message.innerText = "Invalid Amount.";
+        // message.style.display = "block";
+        // message.innerText = "Invalid Amount.";
+        showMessage("Invalid Amount.");
     }
 });
