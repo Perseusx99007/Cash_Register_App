@@ -26,8 +26,8 @@ checkButton.addEventListener("click", validateBillAndCashAmount = () =>
         else
         {
             console.log("The Cash provided should atleast be equal to the Bill Amount.");
-            // message.style.display = "block";
-            // message.innerText = "The Cash provided should atleast be equal to the Bill Amount.";
+            message.style.display = "block";
+            message.innerText = "The Cash provided should atleast be equal to the Bill Amount.";
             showMessage("The Cash provided should atleast be equal to the Bill Amount.");
         }
     }
