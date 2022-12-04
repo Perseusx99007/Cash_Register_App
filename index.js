@@ -10,7 +10,7 @@ const message = document.querySelector("#error-message");
 
 const showMessage = (message) =>
 {
-    message.style.display = "block";
+    // message.style.display = "block";
     message.innerText = message;
 }
 
