@@ -11,7 +11,7 @@ const message = document.querySelector("#error-message");
 function showMessage (message)
 {
     // message.style.display = "block";
-    message.innerText = message;
+    message.innerText = "message";
 }
 
 checkButton.addEventListener("click", validateBillAndCashAmount = () => 
