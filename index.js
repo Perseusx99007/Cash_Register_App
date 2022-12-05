@@ -8,7 +8,7 @@ const message = document.querySelector("#error-message");
 
 // checkButton.addEventListener("click", () => console.log("CLICKED", cashGiven.value));
 
-showMessage = (message) =>
+function showMessage (message)
 {
     // message.style.display = "block";
     message.innerText = message;
