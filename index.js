@@ -35,7 +35,7 @@ checkButton.addEventListener("click", validateBillAndCashAmount = () =>
     {
         // console.log("Invalid Amount.");
         message.style.display = "block";
-        // message.innerText = "Invalid Amount.";
+        message.innerText = "Invalid Amount.";
         // showMessage("Invalid Amount.");
     }
 });
