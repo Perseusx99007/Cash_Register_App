@@ -6,8 +6,8 @@ const message = document.querySelector("#error-message");
 
 // billButton.addEventListener("click", () => console.log("clicked", billAmount.value));
 
-checkButton.addEventListener("click", () => console.log("CLICKED", cashGiven.value));
 
+// checkButton.addEventListener("click", () => console.log("CLICKED", cashGiven.value));
 // showMessage = (message) =>
 // {
 //     // message.style.display = "block";
