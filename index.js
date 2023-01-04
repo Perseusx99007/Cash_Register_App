@@ -8,11 +8,7 @@ const message = document.querySelector("#error-message");
 
 
 // checkButton.addEventListener("click", () => console.log("CLICKED", cashGiven.value));
-// showMessage = (message) =>
-// {
-//     // message.style.display = "block";
-//     message.innerText = message;
-// }
+
 
 checkButton.addEventListener("click", validateBillAndCashAmount = () => 
 {
@@ -39,3 +35,9 @@ checkButton.addEventListener("click", validateBillAndCashAmount = () =>
         // showMessage("Invalid Amount.");
     }
 });
+
+// showMessage = (message) =>
+// {
+//     // message.style.display = "block";
+//     message.innerText = message;
+// }
