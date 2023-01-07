@@ -36,8 +36,8 @@ checkButton.addEventListener("click", validateBillAndCashAmount = () =>
     }
 });
 
-// showMessage = (message) =>
-// {
-//     // message.style.display = "block";
-//     message.innerText = message;
-// }
+showMessage = (message) =>
+{
+    // message.style.display = "block";
+    message.innerText = message;
+}
